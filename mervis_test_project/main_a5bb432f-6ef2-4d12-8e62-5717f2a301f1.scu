@@ -1,6 +1,153 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <fbdGraph xmlns:r="http://dev.rcware.eu/serialization/references" codeKind="Program" xmlns="http://dev.rcware.eu/shark-ide-2">
-  <nodes />
-  <links />
+  <nodes>
+    <node name="">
+      <ports>
+        <port o="In" layout="0">
+          <desc fullName="$hw$.$1w-thermometer_convert_commblock$" module="mervis_test_project" r:def="1" />
+        </port>
+        <port o="Out" layout="1" r:def="4">
+          <desc r:ref="1" />
+        </port>
+      </ports>
+      <isGet>true</isGet>
+      <isSet>true</isSet>
+      <ref r:ref="1" />
+      <Id>df84dbe9-cb23-492a-8a4e-3b4b70fa9d40</Id>
+      <translation>-300,-20</translation>
+      <Ladder>Left</Ladder>
+      <LadderOrder>-1</LadderOrder>
+    </node>
+    <node name="">
+      <ports>
+        <port o="In" layout="0">
+          <desc fullName="$desired_temperature$" module="mervis_test_project" r:def="2" />
+        </port>
+        <port o="Out" layout="1" r:def="6">
+          <desc r:ref="2" />
+        </port>
+      </ports>
+      <isGet>true</isGet>
+      <isSet>true</isSet>
+      <ref r:ref="2" />
+      <Id>c71d12bf-3ef0-48ec-b731-24495089412b</Id>
+      <translation>-300,0</translation>
+      <Ladder>Left</Ladder>
+    </node>
+    <node name="B36_PID_Controller">
+      <ports>
+        <port o="Out" layout="0">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$eno$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="1">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$en$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="2" r:def="5">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$x$" module="Lib.Core" />
+          <setting />
+        </port>
+        <port o="In" layout="3" r:def="7">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$w$" module="Lib.Core" />
+          <setting />
+        </port>
+        <port o="In" layout="4">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$controllertype$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="5">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$enabled$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="6">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$bp$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="7">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$xp$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="8">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$off$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="9">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$ti$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="10">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$td$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="11">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$min$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="12">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$max$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="In" layout="13">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$disval$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="Out" layout="14" r:def="8">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$out$" module="Lib.Core" />
+          <setting />
+        </port>
+        <port o="Out" layout="15">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$pfactor$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="Out" layout="16">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$ifactor$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+        <port o="Out" layout="17">
+          <desc fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$.$dfactor$" module="Lib.Core" />
+          <setting visible="false" />
+        </port>
+      </ports>
+      <call fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$" module="Lib.Core" />
+      <field name="B36_PID_Controller" kind="Local" modifiers="None" persistency="Auto">
+        <type fullName="$lib$.$core$.$v1_0$.$b36_pid_controller$" module="Lib.Core" />
+      </field>
+      <Name>B36_PID_Controller</Name>
+      <Id>63eded8e-9a38-42f1-8559-8eaf5c5a8721</Id>
+      <translation>-60,-20</translation>
+    </node>
+    <node name="">
+      <ports>
+        <port o="In" layout="0" r:def="9">
+          <desc fullName="$hw$.$neuron s10x_do_1.01$" module="mervis_test_project" r:def="3" />
+        </port>
+        <port o="Out" layout="1">
+          <desc r:ref="3" />
+        </port>
+      </ports>
+      <isGet>true</isGet>
+      <isSet>true</isSet>
+      <ref r:ref="3" />
+      <Id>68940fa5-7090-44f1-a0f9-6276dc064282</Id>
+      <translation>220,-40</translation>
+      <Ladder>Right</Ladder>
+      <LadderOrder>-2</LadderOrder>
+    </node>
+  </nodes>
+  <links>
+    <link>
+      <fromPort r:ref="4" />
+      <toPort r:ref="5" />
+    </link>
+    <link>
+      <fromPort r:ref="6" />
+      <toPort r:ref="7" />
+    </link>
+    <link>
+      <fromPort r:ref="8" />
+      <toPort r:ref="9" />
+    </link>
+  </links>
   <notes />
 </fbdGraph>

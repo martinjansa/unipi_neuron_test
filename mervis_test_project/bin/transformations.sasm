@@ -1,3 +1,6 @@
+var $PLC$.$HW_hidden$.$1Wire.1W-Thermometer.Temperature$: $base$.$int$ =0 
+var $PLC$.$HW_hidden$.$tmp_real$: $base$.$real$ =0 
+var $PLC$.$HW_hidden$.$1Wire.1W-Thermometer.Temperature.transformation$: $Lib.Core$.$Lib$.$Core$.$v1_0$.$Linear$ ={0,1,0.0625,0} 
 /*
  *	PROGRAM DECLARATION f_transform
  */
@@ -5,7 +8,25 @@ prog $PLC$.$HW_hidden$.$f_transform$
 ()
 
 code
-## 5 "0"
+## 10 "0"
+;;Call $Lib.Core$.$Lib$.$Core$.$v1_0$.$Linear$.$Forward$
+	LA			address($PLC$.$HW_hidden$.$1Wire.1W-Thermometer.Temperature$)
+	RDSW
+;;cast code from int to real
+	CF
+	LUB			1
+	LA			NULL
+	LA			address($PLC$.$HW_hidden$.$1Wire.1W-Thermometer.Temperature.transformation$)
+	CALL			address($Lib.Core$.$Lib$.$Core$.$v1_0$.$Linear$.$Forward$)
+;;call end
+	LA			address($PLC$.$HW_hidden$.$tmp_real$)
+	WRF
+## 12 "0"
+	LA			address($PLC$.$HW_hidden$.$tmp_real$)
+	RDF
+	LA			address($mervis_test_project$.$hw$.$1W-Thermometer_Temperature$)
+	WRF
+## 15 "0"
 	RET
 end code
 var $PLC$.$HW_hidden$.$f_transform$.dyn_met: addr, TLS META(2147483648)
@@ -18,7 +39,7 @@ prog $PLC$.$HW_hidden$.$r_transform$
 ()
 
 code
-## 7 "0"
+## 17 "0"
 	RET
 end code
 var $PLC$.$HW_hidden$.$r_transform$.dyn_met: addr, TLS META(2147483648)
@@ -31,7 +52,7 @@ prog $PLC$.$HW_hidden$.$init_transform$
 ()
 
 code
-## 10 "0"
+## 20 "0"
 	RET
 end code
 var $PLC$.$HW_hidden$.$init_transform$.dyn_met: addr, TLS META(2147483648)
@@ -44,7 +65,7 @@ prog $PLC$.$HW_hidden$.$finish_transform$
 ()
 
 code
-## 13 "0"
+## 23 "0"
 	RET
 end code
 var $PLC$.$HW_hidden$.$finish_transform$.dyn_met: addr, TLS META(2147483648)

@@ -1,3 +1,6 @@
+VAR_GLOBAL 
+	Desired_temperature: real := 22;
+END_VAR
 NAMESPACE hw 
 VAR_GLOBAL RETAIN 
 	$Neuron S10x_UART_config_1.01$: word;
@@ -802,5 +805,12 @@ NAMESPACE hw
 VAR_GLOBAL RETAIN 
 	$Neuron S10x_NUled1.04_wr_commblock$: bool;
 	Elektromer_L1_Apparent_Power: real;
+	$1W-Thermometer_Scratchpad_commblock$: bool;
+	$1W-Thermometer_Scratchpad_timestamp$: dt;
+	$1W-Thermometer_Scratchpad_commerror$: bool;
+	$1W-Thermometer_Convert_commblock$: bool;
+	$1W-Thermometer_Convert_timestamp$: dt;
+	$1W-Thermometer_Convert_commerror$: bool;
+	$1W-Thermometer_Temperature$: real;
 END_VAR
 END_NAMESPACE

@@ -211,6 +211,13 @@
     <n1:keyval k="$mervis_test_project$.$hw$.$neuron s10x_nuled1.04_wr_commerror$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9036" />
     <n1:keyval k="$mervis_test_project$.$hw$.$neuron s10x_nuled1.04_wr_commblock$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9037" />
     <n1:keyval k="$mervis_test_project$.$hw$.$elektromer_l1_apparent_power$.$91-b0-d6-b8-5b-0f-3b-62-8a-89-8f-3a-8e-98-56-8a$" v="9038" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_scratchpad_commblock$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9039" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_scratchpad_timestamp$.$a6-c9-b4-e8-62-40-be-7a-d4-83-54-78-a6-13-7c-e9$" v="9040" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_scratchpad_commerror$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9041" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_convert_commblock$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9042" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_convert_timestamp$.$a6-c9-b4-e8-62-40-be-7a-d4-83-54-78-a6-13-7c-e9$" v="9043" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_convert_commerror$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9044" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$1w-thermometer_temperature$.$91-b0-d6-b8-5b-0f-3b-62-8a-89-8f-3a-8e-98-56-8a$" v="9045" />
     <n1:keyval k="$base$.$abs_sint$.$eno$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="1" />
     <n1:keyval k="$base$.$abs_sint$.$en$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="2" />
     <n1:keyval k="$base$.$abs_sint$.$in$.$09-33-7b-5d-10-ca-03-59-07-51-7d-12-bc-52-85-ee$" v="3" />
@@ -9039,5 +9046,8 @@
     <n1:keyval k="$lib.hvac$.$lib$.$hvac$.$v1_2$.$t2_three_point_control$.$main$.$en$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="8826" />
     <n1:keyval k="$lib.hvac$.$lib$.$hvac$.$v1_2$.$t2_three_point_control$.$init$.$eno$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="8827" />
     <n1:keyval k="$lib.hvac$.$lib$.$hvac$.$v1_2$.$t2_three_point_control$.$init$.$en$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="8828" />
+    <n1:keyval k="$plc$.$hw_hidden$.$1wire.1w-thermometer.temperature$.$19-2b-b4-6f-dd-71-86-26-3a-fd-ee-77-8c-1d-94-de$" v="9046" />
+    <n1:keyval k="$plc$.$hw_hidden$.$tmp_real$.$91-b0-d6-b8-5b-0f-3b-62-8a-89-8f-3a-8e-98-56-8a$" v="9047" />
+    <n1:keyval k="$plc$.$hw_hidden$.$1wire.1w-thermometer.temperature.transformation$.$66-1f-08-7d-ad-1b-d9-a2-22-cb-06-c0-a9-fa-f0-ba$" v="9048" />
   </n1:vals>
 </idMap>

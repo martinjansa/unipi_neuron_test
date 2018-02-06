@@ -212,7 +212,14 @@
       <n1:keyval k="9036" v="1" />
       <n1:keyval k="9037" v="1" />
       <n1:keyval k="9038" v="4" />
+      <n1:keyval k="9039" v="1" />
+      <n1:keyval k="9040" v="8" />
+      <n1:keyval k="9041" v="1" />
+      <n1:keyval k="9042" v="1" />
+      <n1:keyval k="9043" v="8" />
+      <n1:keyval k="9044" v="1" />
+      <n1:keyval k="9045" v="4" />
     </n1:vals>
   </Nvram>
-  <LayoutCauseColdRestart>true</LayoutCauseColdRestart>
+  <LayoutCauseColdRestart>false</LayoutCauseColdRestart>
 </MemoryLayout>

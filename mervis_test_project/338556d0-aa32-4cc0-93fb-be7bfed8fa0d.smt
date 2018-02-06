@@ -211,6 +211,14 @@
     <m type="library.metadata.common" fullName="$hw$.$neuron s10x_nuled1.04_wr_timestamp$" module="mervis_test_project" />
     <m type="library.metadata.common" fullName="$hw$.$neuron s10x_nuled1.04_wr_commerror$" module="mervis_test_project" />
     <m type="library.metadata.common" fullName="$hw$.$neuron s10x_nuled1.04_wr_commblock$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_scratchpad_commblock$" module="mervis_test_project" />
     <m type="library.metadata.common" fullName="$hw$.$elektromer_l1_apparent_power$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_scratchpad_timestamp$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_scratchpad_commerror$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_convert_commblock$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_convert_timestamp$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_convert_commerror$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$hw$.$1w-thermometer_temperature$" module="mervis_test_project" />
+    <m type="library.metadata.common" fullName="$desired_temperature$" module="mervis_test_project" />
   </values>
 </metadata>

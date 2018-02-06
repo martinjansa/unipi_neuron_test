@@ -22,14 +22,14 @@
           <Id>a0fe00cb-23da-487a-b554-dc8c5927c990</Id>
           <items>
             <configuration type="configuration" internalid="0cbb9faf-914d-4332-9b69-f24ccb63fd21">
+              <IsActiveConfiguration>true</IsActiveConfiguration>
+              <IsActiveConfigurationRoot>true</IsActiveConfigurationRoot>
               <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
               <Name>site</Name>
               <Id>dc16315d-19cf-4c1b-bc45-c76506a63b94</Id>
               <items />
             </configuration>
             <configuration type="configuration" internalid="ab756e6b-5ea4-42ab-8ed9-d52a924116ff">
-              <IsActiveConfiguration>true</IsActiveConfiguration>
-              <IsActiveConfigurationRoot>true</IsActiveConfigurationRoot>
               <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
               <Name>dev</Name>
               <Id>d37eec80-27dd-4554-88bb-8dc11559b139</Id>
@@ -360,6 +360,7 @@
             </HwCapabilities>
             <Verified>true</Verified>
           </HwCapabilities_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+          <EnabledInDebug_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>true</EnabledInDebug_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
           <EnabledInDeploy_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>true</EnabledInDeploy_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
           <VariableSaving_d9082f5f-1332-44f8-9695-fa704fd493b9 />
           <EnableExecExceptions>true</EnableExecExceptions>
@@ -368,6 +369,7 @@
           <PlatformId_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>Generic05</PlatformId_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
           <DeviceId_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>Linux_UniPi2_S103_Rpi2</DeviceId_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
           <config_d9082f5f-1332-44f8-9695-fa704fd493b9 type="config.param.Emulator" />
+          <config_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="config.param.Emulator" />
           <config_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="config.param.UniPi">
             <Interface>
               <Sscp>
@@ -443,6 +445,7 @@
                 <device type="device">
                   <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
                   <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceTcpLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
                   <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceRole>Attribute</DeviceRole>
@@ -504,6 +507,7 @@
                     <DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>0</DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
                   </DeviceParameters>
                   <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceTcpLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                     <DevicePort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>502</DevicePort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
                   </DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
@@ -7279,6 +7283,7 @@
               <CommunicationProtocol type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                 <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>yyy</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
               </CommunicationProtocol>
+              <LinkProtocol_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.Hw.SerialLineLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
               <LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.SerialLineLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                 <ComPort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>100</ComPort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
                 <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>yyy</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
@@ -7289,6 +7294,8 @@
               <items>
                 <device type="device">
                   <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                  <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceRole>Attribute</DeviceRole>
@@ -7340,6 +7347,8 @@
                   <ModelId>PRO 380</ModelId>
                   <ManufacturerId>Inepro</ManufacturerId>
                   <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                  <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
                   <Assignedproperties>
@@ -7422,6 +7431,280 @@
                       <GeneratedVariableReference fullName="$hw$.$elektromer_l1_apparent_power$" module="mervis_test_project" />
                       <Name>L1_Apparent_Power</Name>
                       <Id>db7b3c45-42e7-4d38-808d-aedc75bdc03b</Id>
+                      <items />
+                    </datapoint>
+                  </items>
+                </device>
+              </items>
+            </channel>
+            <channel type="channel">
+              <CommunicationProtocol type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIOProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>aaa</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              </CommunicationProtocol>
+              <LinkProtocol_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.Hw.I2CLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+              <LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.OneWireLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>aaa</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              </LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              <Name>1Wire</Name>
+              <Id>ce7ecffc-4f9e-4b74-9a09-25f6fc8587cf</Id>
+              <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>aaa</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              <items>
+                <device type="device">
+                  <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceI2CLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                  <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceOneWireLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                  <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceRole>Attribute</DeviceRole>
+                  <Assignedproperties>
+                    <item />
+                  </Assignedproperties>
+                  <Name>Attributes</Name>
+                  <Id>48a5d421-d368-4708-a693-5c37419b04ca</Id>
+                  <items>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>commerror</Name>
+                      <Id>14a72f38-8cc0-4995-b5b2-ad5597fb792f</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <DataPointType fullName="$dt$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>Timestamp</DataPointAttributeRole>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>timestamp</Name>
+                      <Id>9e4c4804-500d-41f5-a90d-b5c8458c11eb</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>PriorityRefresh</DataPointAttributeRole>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>priorityrefresh</Name>
+                      <Id>1e21cd5c-bd7c-4bd3-8244-52efb4053b1c</Id>
+                      <items />
+                    </datapoint>
+                  </items>
+                </device>
+                <device type="device">
+                  <ModelId>1W-Thermometer</ModelId>
+                  <VersionId>1</VersionId>
+                  <ManufacturerId>UniPiTechnology</ManufacturerId>
+                  <Status>Release</Status>
+                  <LockForLinkProtocol>true</LockForLinkProtocol>
+                  <ManufacturerDisplayName>UniPi Technology</ManufacturerDisplayName>
+                  <ModelDisplayName>1W-Thermometer</ModelDisplayName>
+                  <CategoryPath>UniPi (v1.1)\OneWire</CategoryPath>
+                  <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                  <DeviceLinkParameters_0cbb9faf-914d-4332-9b69-f24ccb63fd21 type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceI2CLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                  <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceOneWireLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                    <DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>163032202</DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                    <FamilyCode_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>40</FamilyCode_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                    <CrcCode_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>176</CrcCode_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                  </DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                  <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
+                  <PrototypeRef>PlatformIO.UniPiTechnology.1W-Thermometer.1</PrototypeRef>
+                  <Enabled_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>true</Enabled_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                  <Assignedproperties>
+                    <item />
+                  </Assignedproperties>
+                  <Name>1W-Thermometer</Name>
+                  <Id>f8a4d14a-f211-4a86-a0bc-2763589d24be</Id>
+                  <items>
+                    <group type="group">
+                      <GroupParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIOGroupParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                        <OneWireCommand>68</OneWireCommand>
+                        <Broadcast>true</Broadcast>
+                      </GroupParameters>
+                      <GroupType>WriteOnly</GroupType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>Convert</Name>
+                      <Id>836296a8-5fb7-403a-9e0c-1f9e18109ac8</Id>
+                      <items />
+                    </group>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                        <ByteOrder>21</ByteOrder>
+                        <ByteCount>2</ByteCount>
+                      </DataPointParameters>
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Temperature$" />
+                      </MappingDefinition>
+                      <ParametersFB>
+                        <args>
+                          <arg i1="eno" i2="" />
+                          <arg i1="en" i2="" />
+                          <arg i1="k" i2="0.0625" />
+                          <arg i1="q" i2="" />
+                        </args>
+                        <t fullName="$lib$.$core$.$v1_0$.$linear$" module="Lib.Core" />
+                      </ParametersFB>
+                      <DataPointType fullName="$int$" module="base" />
+                      <Group>Scratchpad</Group>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_temperature$" module="mervis_test_project" />
+                      <Name>Temperature</Name>
+                      <Id>1c4d0d40-bb3d-48d3-93ec-9fd412bc7ebd</Id>
+                      <items />
+                    </datapoint>
+                    <group type="group">
+                      <GroupParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIOGroupParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO">
+                        <OneWireCommand>190</OneWireCommand>
+                        <Length>9</Length>
+                      </GroupParameters>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>Scratchpad</Name>
+                      <Id>c596a57d-c164-47d6-a130-f7b43d38eb97</Id>
+                      <items />
+                    </group>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Convert_commerror$" />
+                      </MappingDefinition>
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <Group>Convert</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_convert_commerror$" module="mervis_test_project" />
+                      <Name>Convert_commerror</Name>
+                      <Id>32a608c2-4266-40e7-ad88-0e3f0311495e</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Convert_timestamp$" />
+                      </MappingDefinition>
+                      <DataPointType fullName="$dt$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>Timestamp</DataPointAttributeRole>
+                      <Group>Convert</Group>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_convert_timestamp$" module="mervis_test_project" />
+                      <Name>Convert_timestamp</Name>
+                      <Id>b7563121-9b0c-4e5b-91b1-24eed8efab6c</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <RevMappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Convert_commblock$" />
+                      </RevMappingDefinition>
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>CommunicationBlock</DataPointAttributeRole>
+                      <Group>Convert</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_convert_commblock$" module="mervis_test_project" />
+                      <Name>Convert_commblock</Name>
+                      <Id>395adc85-05ac-4598-b841-2cbfe7a402f4</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Scratchpad_commerror$" />
+                      </MappingDefinition>
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <Group>Scratchpad</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_scratchpad_commerror$" module="mervis_test_project" />
+                      <Name>Scratchpad_commerror</Name>
+                      <Id>8ca628b0-8c3b-4aff-ac01-b0a59b2ab49b</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Scratchpad_timestamp$" />
+                      </MappingDefinition>
+                      <DataPointType fullName="$dt$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>Timestamp</DataPointAttributeRole>
+                      <Group>Scratchpad</Group>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_scratchpad_timestamp$" module="mervis_test_project" />
+                      <Name>Scratchpad_timestamp</Name>
+                      <Id>98870f13-e579-44d5-8eb9-04d9b2e595cf</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIODataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.PlatformIO" />
+                      <RevMappingDefinition>
+                        <item />
+                        <item value="hw.$1W-Thermometer_Scratchpad_commblock$" />
+                      </RevMappingDefinition>
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>CommunicationBlock</DataPointAttributeRole>
+                      <Group>Scratchpad</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$1w-thermometer_scratchpad_commblock$" module="mervis_test_project" />
+                      <Name>Scratchpad_commblock</Name>
+                      <Id>db140d36-d495-427d-9953-3fb97eef54e4</Id>
                       <items />
                     </datapoint>
                   </items>

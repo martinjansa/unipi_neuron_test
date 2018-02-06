@@ -212,3 +212,10 @@ $PLC$.$HW_hidden$.$f_transform$
 ,$mervis_test_project$.$hw$.$Neuron S10x_NConfig_mwd1_commerror$
 ,$mervis_test_project$.$hw$.$Neuron S10x_NConfig_mwd1_timestamp$
 ,$mervis_test_project$.$hw$.$Elektromer_L1_Apparent_Power$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Temperature$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Convert_commerror$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Convert_timestamp$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Convert_commblock$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Scratchpad_commerror$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Scratchpad_timestamp$
+,$mervis_test_project$.$hw$.$1W-Thermometer_Scratchpad_commblock$
