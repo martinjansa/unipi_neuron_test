@@ -1,0 +1,805 @@
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_UART_config_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_AI_mode_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_AO_mode_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_PWM_cycle_1$: word;
+	$Neuron S10x_PWM_prescale_1$: word;
+	$Neuron S10x_DS_toggle_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_toggle_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_toggle_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_toggle_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_polarity_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_polarity_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_polarity_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_polarity_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_enable_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_enable_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_enable_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DS_enable_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Debounce_1.04$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Debounce_1.03$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Debounce_1.02$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Debounce_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_MWD_timeout_1$: word;
+	$Neuron S10x_ULED_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_ULED_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_ULED_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_ULED_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_PWM_1.04$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_PWM_1.03$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_PWM_1.02$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_PWM_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_MWD_enable_1$: bool;
+	$Neuron S10x_AO_1$: word;
+	$Neuron S10x_DO_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DO_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DO_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DO_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NConfig_mwd1_timestamp$: dt;
+	$Neuron S10x_NConfig_mwd1_commerror$: bool;
+	$Neuron S10x_NConfig_mwd1_commblock$: bool;
+	$Neuron S10x_AIO_V_Offset_1$: int;
+	$Neuron S10x_AIO_V_Dev_1$: int;
+	$Neuron S10x_AI_A_Offset_1$: int;
+	$Neuron S10x_AI_A_Dev_1$: int;
+	$Neuron S10x_AI_V_Offset_1$: int;
+	$Neuron S10x_AI_V_Dev_1$: int;
+	$Neuron S10x_AO_A_Offset_1$: int;
+	$Neuron S10x_AO_A_Dev_1$: int;
+	$Neuron S10x_AO_V_Offset_1$: int;
+	$Neuron S10x_AO_V_Dev_1$: int;
+	$Neuron S10x_VRef_1$: word;
+	$Neuron S10x_BoardSerial_1$: dword;
+	$Neuron S10x_HwVersion_1$: word;
+	$Neuron S10x_Version_1$: word;
+	$Neuron S10x_NConfig1_rd_timestamp$: dt;
+	$Neuron S10x_NConfig1_rd_commerror$: bool;
+	$Neuron S10x_NConfig1_rd_commblock$: bool;
+	$Neuron S10x_NUled1.01_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.01_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.01_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.01_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.01_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.01_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_OW_off_1$: bool;
+	$Neuron S10x_Nbits_owoff1_timestamp$: dt;
+	$Neuron S10x_Nbits_owoff1_commerror$: bool;
+	$Neuron S10x_Nbits_owoff1_commblock$: bool;
+	$Neuron S10x_NC_DSP1.04_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.04_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.04_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NConfig_Psc1_timestamp$: dt;
+	$Neuron S10x_NConfig_Psc1_commerror$: bool;
+	$Neuron S10x_NConfig_Psc1_commblock$: bool;
+	$Neuron S10x_NC_DSP1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.03_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.03_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.03_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.02_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.02_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSP1.02_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.04_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.04_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.04_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.01_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.01_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.01_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.03_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.03_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.03_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.03_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.03_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.03_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.02_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.02_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.02_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.03_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.03_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_Debounce1.03_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.04$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.03$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.02$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.01$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_UART_TXQ_1.01$: word;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Was_WD_boot_1$: bool;
+	$Neuron S10x_VrefInt_1$: word;
+	$Neuron S10x_AIO_1$: word;
+	$Neuron S10x_AI_1$: word;
+	$Neuron S10x_DI_1.04$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DI_1.03$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DI_1.02$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_DI_1.01$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NStatus1_rd_timestamp$: dt;
+	$Neuron S10x_NStatus1_rd_commerror$: bool;
+	$Neuron S10x_NStatus1_rd_commblock$: bool;
+	$Neuron S10x_NPwm1.02_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.02_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.02_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.02_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.02_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.02_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_ai_mode1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_ai_mode1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_ai_mode1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Clear_WD_boot_1$: bool;
+	$Neuron S10x_Nbits_wdboot1_timestamp$: dt;
+	$Neuron S10x_Nbits_wdboot1_commerror$: bool;
+	$Neuron S10x_Nbits_wdboot1_commblock$: bool;
+	$Neuron S10x_NC_DSE1.04_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.04_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.04_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.02_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.02_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.02_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.03_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.03_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DSE1.03_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_Reboot_1$: bool;
+	$Neuron S10x_Nbits_reboot1_timestamp$: dt;
+	$Neuron S10x_Nbits_reboot1_commerror$: bool;
+	$Neuron S10x_Nbits_reboot1_commblock$: bool;
+	$Neuron S10x_NDo1.04_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.04_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.04_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NAo1_wr_timestamp$: dt;
+	$Neuron S10x_NAo1_wr_commerror$: bool;
+	$Neuron S10x_NAo1_wr_commblock$: bool;
+	$Neuron S10x_NC_ao_mode1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_ao_mode1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_ao_mode1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NMWD_ena1_timestamp$: dt;
+	$Neuron S10x_NMWD_ena1_commerror$: bool;
+	$Neuron S10x_NMWD_ena1_commblock$: bool;
+	$Neuron S10x_NDo1.02_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.02_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.02_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.03_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.03_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NDo1.03_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.02_set$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.02_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.02_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.02_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NV_save_1$: bool;
+	$Neuron S10x_Nbits_save1_timestamp$: dt;
+	$Neuron S10x_Nbits_save1_commerror$: bool;
+	$Neuron S10x_Nbits_save1_commblock$: bool;
+	$Neuron S10x_CNT_1.04_set$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.04_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.04_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.04_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_CNT_1.03_set$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.03_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.03_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.03_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_uart1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_uart1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_uart1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NConfig_Cycle1_timestamp$: dt;
+	$Neuron S10x_NConfig_Cycle1_commerror$: bool;
+	$Neuron S10x_NConfig_Cycle1_commblock$: bool;
+	$Neuron S10x_CNT_1.01_set$: dword;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.01_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.01_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NCnt1.01_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.01_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.01_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.01_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.04_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.04_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NPwm1.04_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.03_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.03_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.03_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.02_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.02_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.02_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.04_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.04_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NC_DST1.04_commblock$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.04_wr_timestamp$: dt;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.04_wr_commerror$: bool;
+END_VAR
+END_NAMESPACE
+NAMESPACE hw 
+VAR_GLOBAL RETAIN 
+	$Neuron S10x_NUled1.04_wr_commblock$: bool;
+END_VAR
+END_NAMESPACE

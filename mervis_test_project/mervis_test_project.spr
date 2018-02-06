@@ -19,5 +19,18 @@
       <Id>a5bb432f-6ef2-4d12-8e62-5717f2a301f1</Id>
       <items />
     </codeunit>
+    <directory type="directory">
+      <Name>Globals</Name>
+      <Id>d1a33a00-50a6-4663-9311-7e81c12560a9</Id>
+      <items>
+        <codeunit type="codeunit">
+          <LanguageType>st</LanguageType>
+          <DocumentStreamPath>generated_779ff0d8-9b62-4963-b13b-2e4ac5c726e4.scu</DocumentStreamPath>
+          <Name>generated</Name>
+          <Id>779ff0d8-9b62-4963-b13b-2e4ac5c726e4</Id>
+          <items />
+        </codeunit>
+      </items>
+    </directory>
   </items>
 </project>
