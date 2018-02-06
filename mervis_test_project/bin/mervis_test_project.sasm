@@ -222,6 +222,7 @@ var $mervis_test_project$.$hw$.$Neuron S10x_NC_DST1.04_commblock$: $base$.$bool$
 var $mervis_test_project$.$hw$.$Neuron S10x_NUled1.04_wr_timestamp$: $base$.$dt$ =0 , RETAIN 
 var $mervis_test_project$.$hw$.$Neuron S10x_NUled1.04_wr_commerror$: $base$.$bool$ =0 , RETAIN 
 var $mervis_test_project$.$hw$.$Neuron S10x_NUled1.04_wr_commblock$: $base$.$bool$ =0 , RETAIN 
+var $mervis_test_project$.$hw$.$Elektromer_L1_Apparent_Power$: $base$.$real$ =0 , RETAIN 
 srcfile "mervis_test_project//mervis_test_project//Globals//generated" "00000000000000000000000000000000"
 
 /////////////

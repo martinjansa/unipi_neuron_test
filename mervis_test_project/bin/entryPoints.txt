@@ -211,3 +211,4 @@ $PLC$.$HW_hidden$.$f_transform$
 ,$mervis_test_project$.$hw$.$Neuron S10x_NConfig_mwd1_commblock$
 ,$mervis_test_project$.$hw$.$Neuron S10x_NConfig_mwd1_commerror$
 ,$mervis_test_project$.$hw$.$Neuron S10x_NConfig_mwd1_timestamp$
+,$mervis_test_project$.$hw$.$Elektromer_L1_Apparent_Power$

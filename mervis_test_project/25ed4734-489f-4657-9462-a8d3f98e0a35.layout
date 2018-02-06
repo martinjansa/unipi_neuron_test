@@ -211,6 +211,7 @@
       <n1:keyval k="9035" v="8" />
       <n1:keyval k="9036" v="1" />
       <n1:keyval k="9037" v="1" />
+      <n1:keyval k="9038" v="4" />
     </n1:vals>
   </Nvram>
   <LayoutCauseColdRestart>true</LayoutCauseColdRestart>

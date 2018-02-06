@@ -209,3 +209,4 @@ mervis_test_project;$hw$.$neuron s10x_nc_dst1.04_commblock$;$bool$;9034;0;1;none
 mervis_test_project;$hw$.$neuron s10x_nuled1.04_wr_timestamp$;$dt$;9035;0;8;none;
 mervis_test_project;$hw$.$neuron s10x_nuled1.04_wr_commerror$;$bool$;9036;0;1;none;
 mervis_test_project;$hw$.$neuron s10x_nuled1.04_wr_commblock$;$bool$;9037;0;1;none;
+mervis_test_project;$hw$.$elektromer_l1_apparent_power$;$real$;9038;0;4;none;

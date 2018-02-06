@@ -210,6 +210,7 @@
     <n1:keyval k="$mervis_test_project$.$hw$.$neuron s10x_nuled1.04_wr_timestamp$.$a6-c9-b4-e8-62-40-be-7a-d4-83-54-78-a6-13-7c-e9$" v="9035" />
     <n1:keyval k="$mervis_test_project$.$hw$.$neuron s10x_nuled1.04_wr_commerror$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9036" />
     <n1:keyval k="$mervis_test_project$.$hw$.$neuron s10x_nuled1.04_wr_commblock$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="9037" />
+    <n1:keyval k="$mervis_test_project$.$hw$.$elektromer_l1_apparent_power$.$91-b0-d6-b8-5b-0f-3b-62-8a-89-8f-3a-8e-98-56-8a$" v="9038" />
     <n1:keyval k="$base$.$abs_sint$.$eno$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="1" />
     <n1:keyval k="$base$.$abs_sint$.$en$.$3f-6b-16-b5-a9-12-be-83-ec-ba-5c-e7-55-b1-fa-ad$" v="2" />
     <n1:keyval k="$base$.$abs_sint$.$in$.$09-33-7b-5d-10-ca-03-59-07-51-7d-12-bc-52-85-ee$" v="3" />

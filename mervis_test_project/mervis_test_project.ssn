@@ -432,6 +432,7 @@
               <CommunicationProtocol type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                 <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>xxx</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
               </CommunicationProtocol>
+              <LinkProtocol_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.Hw.SerialLineLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
               <LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.TcpLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                 <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>xxx</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
               </LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
@@ -441,6 +442,7 @@
               <items>
                 <device type="device">
                   <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                  <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceTcpLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
                   <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceRole>Attribute</DeviceRole>
@@ -501,6 +503,7 @@
                   <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                     <DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>0</DeviceAddress_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
                   </DeviceParameters>
+                  <DeviceLinkParameters_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
                   <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.DeviceTcpLinkParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
                     <DevicePort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>502</DevicePort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
                   </DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
@@ -7268,6 +7271,159 @@
                       <Id>081f1e04-510b-4bd4-91d1-2348315414a2</Id>
                       <items />
                     </dpcouple>
+                  </items>
+                </device>
+              </items>
+            </channel>
+            <channel type="channel">
+              <CommunicationProtocol type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
+                <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>yyy</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              </CommunicationProtocol>
+              <LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.Hw.SerialLineLinkProtocol" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
+                <ComPort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>100</ComPort_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>yyy</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              </LinkProtocol_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              <Name>RS585</Name>
+              <Id>5bc77bd7-d000-4efe-95e0-14be13c28389</Id>
+              <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>yyy</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+              <items>
+                <device type="device">
+                  <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                  <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceRole>Attribute</DeviceRole>
+                  <Assignedproperties>
+                    <item />
+                  </Assignedproperties>
+                  <Name>Attributes</Name>
+                  <Id>4da4b4c1-6248-4302-afb2-35560f23d55d</Id>
+                  <items>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>commerror</Name>
+                      <Id>bbcf2f0c-c112-424f-bd1a-bfd8098c454f</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$dt$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>Timestamp</DataPointAttributeRole>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>timestamp</Name>
+                      <Id>5babab60-8894-4f29-9e40-60c75dc76247</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>PriorityRefresh</DataPointAttributeRole>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>priorityrefresh</Name>
+                      <Id>a0190e41-e576-4e54-ab99-a438c1f4973e</Id>
+                      <items />
+                    </datapoint>
+                  </items>
+                </device>
+                <device type="device">
+                  <ModelId>PRO 380</ModelId>
+                  <ManufacturerId>Inepro</ManufacturerId>
+                  <DeviceParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDeviceParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                  <DeviceLinkParameters_ab756e6b-5ea4-42ab-8ed9-d52a924116ff type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceParameters" asm="ESG.SharkPLC.IDE.Solution" />
+                  <DeviceExtension type="ESG.SharkPLC.IDE.Definitions.SolutionModel.DummyDeviceExtension" asm="ESG.SharkPLC.IDE.Solution" />
+                  <Assignedproperties>
+                    <item />
+                  </Assignedproperties>
+                  <Name>Elektromer</Name>
+                  <Id>e6881120-5280-4d8b-b08b-8cb7cbce4cbf</Id>
+                  <items>
+                    <group type="group">
+                      <GroupParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusGroupParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
+                        <StartingRegister>8321</StartingRegister>
+                        <ReadQuantity>24</ReadQuantity>
+                        <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>zzz</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                      </GroupParameters>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>PowerRead</Name>
+                      <Id>b1bd362b-7ffb-4c89-958b-9cb4b091abb6</Id>
+                      <Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>zzz</Note_ab756e6b-5ea4-42ab-8ed9-d52a924116ff>
+                      <items />
+                    </group>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <Group>PowerRead</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>PowerRead_commerror</Name>
+                      <Id>5d72231b-f31e-43f0-9611-11bd37cfeb98</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$dt$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>Timestamp</DataPointAttributeRole>
+                      <Group>PowerRead</Group>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>PowerRead_timestamp</Name>
+                      <Id>ea778ec1-3c79-47ac-adc4-8e74df87fbbe</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base" />
+                      <DataPointType fullName="$bool$" module="base" />
+                      <DataPointRole>Attribute</DataPointRole>
+                      <DataPointAttributeRole>CommunicationBlock</DataPointAttributeRole>
+                      <Group>PowerRead</Group>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <Name>PowerRead_commblock</Name>
+                      <Id>e3137a92-3b0f-4fb1-bd65-43bc700cd443</Id>
+                      <items />
+                    </datapoint>
+                    <datapoint type="datapoint">
+                      <DataPointParameters type="ESG.SharkPLC.IDE.Definitions.Hw.ModbusDataPointParameters" asm="ESG.SharkPLC.IDE.Definitions.Hw.Base">
+                        <DataOffset>36</DataOffset>
+                        <ByteCount>4</ByteCount>
+                      </DataPointParameters>
+                      <MappingDefinition>
+                        <item />
+                        <item value="hw.Elektromer_L1_Apparent_Power" />
+                      </MappingDefinition>
+                      <DataPointType fullName="$real$" module="base" />
+                      <Group>PowerRead</Group>
+                      <CommValueType>BuiltIn</CommValueType>
+                      <Assignedproperties>
+                        <item />
+                      </Assignedproperties>
+                      <GenerateVariables>true</GenerateVariables>
+                      <GenerateVariablesRetain>true</GenerateVariablesRetain>
+                      <GeneratedVariablesTargetProject id="338556d0-aa32-4cc0-93fb-be7bfed8fa0d" />
+                      <GeneratedVariableReference fullName="$hw$.$elektromer_l1_apparent_power$" module="mervis_test_project" />
+                      <Name>L1_Apparent_Power</Name>
+                      <Id>db7b3c45-42e7-4d38-808d-aedc75bdc03b</Id>
+                      <items />
+                    </datapoint>
                   </items>
                 </device>
               </items>

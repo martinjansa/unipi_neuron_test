@@ -801,5 +801,6 @@ END_NAMESPACE
 NAMESPACE hw 
 VAR_GLOBAL RETAIN 
 	$Neuron S10x_NUled1.04_wr_commblock$: bool;
+	Elektromer_L1_Apparent_Power: real;
 END_VAR
 END_NAMESPACE
