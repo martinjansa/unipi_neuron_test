@@ -1,0 +1,19 @@
+/*
+ *	PROGRAM DECLARATION main
+ */
+prog $mervis_test_project$.$main$
+()
+
+code
+## 3 "mervis_test_project//mervis_test_project//main"
+	RET
+end code
+var $mervis_test_project$.$main$.dyn_met: addr, TLS META(2147483648)
+var $mervis_test_project$.$main$.dyn_obj: addr, TLS META(2147483648)
+
+srcfile "mervis_test_project//mervis_test_project//main" "00000000000000000000000000000000"
+
+/////////////
+//internals
+
+

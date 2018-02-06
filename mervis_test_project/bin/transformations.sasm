@@ -1,0 +1,58 @@
+/*
+ *	PROGRAM DECLARATION f_transform
+ */
+prog $PLC$.$HW_hidden$.$f_transform$
+()
+
+code
+## 5 "0"
+	RET
+end code
+var $PLC$.$HW_hidden$.$f_transform$.dyn_met: addr, TLS META(2147483648)
+var $PLC$.$HW_hidden$.$f_transform$.dyn_obj: addr, TLS META(2147483648)
+
+/*
+ *	PROGRAM DECLARATION r_transform
+ */
+prog $PLC$.$HW_hidden$.$r_transform$
+()
+
+code
+## 7 "0"
+	RET
+end code
+var $PLC$.$HW_hidden$.$r_transform$.dyn_met: addr, TLS META(2147483648)
+var $PLC$.$HW_hidden$.$r_transform$.dyn_obj: addr, TLS META(2147483648)
+
+/*
+ *	PROGRAM DECLARATION init_transform
+ */
+prog $PLC$.$HW_hidden$.$init_transform$
+()
+
+code
+## 10 "0"
+	RET
+end code
+var $PLC$.$HW_hidden$.$init_transform$.dyn_met: addr, TLS META(2147483648)
+var $PLC$.$HW_hidden$.$init_transform$.dyn_obj: addr, TLS META(2147483648)
+
+/*
+ *	PROGRAM DECLARATION finish_transform
+ */
+prog $PLC$.$HW_hidden$.$finish_transform$
+()
+
+code
+## 13 "0"
+	RET
+end code
+var $PLC$.$HW_hidden$.$finish_transform$.dyn_met: addr, TLS META(2147483648)
+var $PLC$.$HW_hidden$.$finish_transform$.dyn_obj: addr, TLS META(2147483648)
+
+srcfile "0" "00000000000000000000000000000000"
+
+/////////////
+//internals
+
+

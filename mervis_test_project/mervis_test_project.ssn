@@ -17,7 +17,6 @@
       <items>
         <configuration type="configuration" internalid="d9082f5f-1332-44f8-9695-fa704fd493b9">
           <IsActiveConfiguration>true</IsActiveConfiguration>
-          <IsActiveConfigurationRoot>true</IsActiveConfigurationRoot>
           <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
           <Name>Profile</Name>
           <Id>a0fe00cb-23da-487a-b554-dc8c5927c990</Id>
@@ -29,6 +28,8 @@
               <items />
             </configuration>
             <configuration type="configuration" internalid="ab756e6b-5ea4-42ab-8ed9-d52a924116ff">
+              <IsActiveConfiguration>true</IsActiveConfiguration>
+              <IsActiveConfigurationRoot>true</IsActiveConfigurationRoot>
               <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
               <Name>dev</Name>
               <Id>d37eec80-27dd-4554-88bb-8dc11559b139</Id>
@@ -40,7 +41,9 @@
           <TaskDefinition_d9082f5f-1332-44f8-9695-fa704fd493b9>
             <item />
             <item type="ESG.SharkPLC.IDE.Definitions.SolutionModel.ControllerTaskDefinition" asm="ESG.SharkPLC.IDE.Solution" id="0" category="NormalOperationTask" name="mainTask" priority="0">
-              <ptr />
+              <ptr>
+                <parameters fullName="$main$" module="mervis_test_project" />
+              </ptr>
               <taskParameters type="ESG.SharkPLC.IDE.Definitions.SolutionModel.TaskFreewheelingParameters" asm="ESG.SharkPLC.IDE.Solution" sleepRatio="50" />
             </item>
           </TaskDefinition_d9082f5f-1332-44f8-9695-fa704fd493b9>
