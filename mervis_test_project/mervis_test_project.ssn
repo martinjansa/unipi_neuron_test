@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<solution xmlns:r="http://dev.rcware.eu/serialization/references" type="solution" xmlns="http://dev.rcware.eu/shark-ide-2">
+  <SubItemsPathsProperty>
+    <item />
+    <item value=".\mervis_test_project.spr" />
+  </SubItemsPathsProperty>
+  <IdeVersionProperty type="ESG.SharkPLC.IDE.Definitions.IdeVersion" asm="ESG.SharkPLC.IDE.Solution" product="Mervis IDE" revision="58620" displayName="Mervis IDE 2.0.12 (58620)" />
+  <IsInSimpleMode>true</IsInSimpleMode>
+  <Version type="ESG.ApplicationModel.Infrastructure.HelperStructures.PersistentVersion" asm="ESG.SharkPLC.IDE.Solution" value="1.0" />
+  <Name>mervis_test_project</Name>
+  <Id>dec0d138-b1a6-4d19-bf97-f9e94873a3e4</Id>
+  <items>
+    <deploy type="deploy">
+      <ProjId>192774d6-0ecc-48ac-adb7-d4321938df3c</ProjId>
+      <Name>Deploy</Name>
+      <Id>c52b9896-7244-4ad6-a3d5-1fa9d495944e</Id>
+      <items>
+        <configuration type="configuration" internalid="d9082f5f-1332-44f8-9695-fa704fd493b9">
+          <IsActiveConfiguration>true</IsActiveConfiguration>
+          <IsActiveConfigurationRoot>true</IsActiveConfigurationRoot>
+          <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
+          <Name>Profile</Name>
+          <Id>a0fe00cb-23da-487a-b554-dc8c5927c990</Id>
+          <items>
+            <configuration type="configuration" internalid="0cbb9faf-914d-4332-9b69-f24ccb63fd21">
+              <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
+              <Name>site</Name>
+              <Id>dc16315d-19cf-4c1b-bc45-c76506a63b94</Id>
+              <items />
+            </configuration>
+            <configuration type="configuration" internalid="ab756e6b-5ea4-42ab-8ed9-d52a924116ff">
+              <ConfigurationAuthor>martinj - martin</ConfigurationAuthor>
+              <Name>dev</Name>
+              <Id>d37eec80-27dd-4554-88bb-8dc11559b139</Id>
+              <items />
+            </configuration>
+          </items>
+        </configuration>
+        <controller type="controller">
+          <TaskDefinition_d9082f5f-1332-44f8-9695-fa704fd493b9>
+            <item />
+            <item type="ESG.SharkPLC.IDE.Definitions.SolutionModel.ControllerTaskDefinition" asm="ESG.SharkPLC.IDE.Solution" id="0" category="NormalOperationTask" name="mainTask" priority="0">
+              <ptr />
+              <taskParameters type="ESG.SharkPLC.IDE.Definitions.SolutionModel.TaskFreewheelingParameters" asm="ESG.SharkPLC.IDE.Solution" sleepRatio="50" />
+            </item>
+          </TaskDefinition_d9082f5f-1332-44f8-9695-fa704fd493b9>
+          <Connection type="connectionparametersgroup">
+            <ConnectionParametersDefinition_d9082f5f-1332-44f8-9695-fa704fd493b9 type="Tcp" />
+          </Connection>
+          <HwCapabilities_d9082f5f-1332-44f8-9695-fa704fd493b9 type="ESG.SharkPLC.IDE.Definitions.SolutionModel.ControllerHwCapabilities" asm="ESG.SharkPLC.IDE.Solution">
+            <HwCapabilities />
+            <Verified>false</Verified>
+          </HwCapabilities_d9082f5f-1332-44f8-9695-fa704fd493b9>
+          <VariableSaving_d9082f5f-1332-44f8-9695-fa704fd493b9 />
+          <EnableExecExceptions>true</EnableExecExceptions>
+          <DpIdHelper>19659</DpIdHelper>
+          <config_d9082f5f-1332-44f8-9695-fa704fd493b9 type="config.param.Emulator" />
+          <Lcd />
+          <Name>PLC</Name>
+          <Id>25ed4734-489f-4657-9462-a8d3f98e0a35</Id>
+          <items />
+        </controller>
+      </items>
+    </deploy>
+    <history type="history">
+      <Name>History</Name>
+      <Id>23329593-e15d-43cb-aadd-f82a9daa4bfc</Id>
+      <items />
+    </history>
+  </items>
+</solution>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project xmlns:r="http://dev.rcware.eu/serialization/references" type="project" xmlns="http://dev.rcware.eu/shark-ide-2">
+  <references>
+    <item />
+    <item module="base" />
+    <item module="Lib.Core" />
+    <item module="Lib.Hvac" />
+    <item module="Lib.Iec" />
+  </references>
+  <ProjectKind>Executable</ProjectKind>
+  <Name>mervis_test_project</Name>
+  <Id>338556d0-aa32-4cc0-93fb-be7bfed8fa0d</Id>
+  <items>
+    <codeunit type="codeunit">
+      <CodeUnitKind>Program</CodeUnitKind>
+      <LanguageType>fbd</LanguageType>
+      <DocumentStreamPath>main_a5bb432f-6ef2-4d12-8e62-5717f2a301f1.scu</DocumentStreamPath>
+      <Name>main</Name>
+      <Id>a5bb432f-6ef2-4d12-8e62-5717f2a301f1</Id>
+      <items />
+    </codeunit>
+  </items>
+</project>
